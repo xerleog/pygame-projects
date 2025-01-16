@@ -1,24 +1,24 @@
-# Ant Simulation 🚀
+# Ant Simulation 
 
-## Description 📝
+## Description 
 
-This simulation tool 🛠️ demonstrates the pathfinding behavior of ants in search of food sources. The project contains two main scripts, `main.py` and `main2.py`:
+This simulation tool demonstrates the pathfinding behavior of ants in search of food sources. The project contains two main scripts, `main.py` and `main2.py`:
 
 - **`main.py`**: Generates 10 random food sources and simulates the ant's movement from start to finish using brute force to find the shortest path.
 - **`main2.py`**: Allows the user to interactively select 10 food source points on the screen. The ant's movements are observed, and its pathfinding behavior is also calculated using brute force.
 
 Both scripts are based on the idea of calculating the shortest possible path to undiscovered food nodes in a simulated environment.
 
-## Features 🌟
+## Features 
 
-- **Random Food Generation**: Generate random food source points on the screen 🐜.
-- **Interactive Mode**: Let the user select food sources by right-clicking on the screen 🎮.
-- **Brute Force Pathfinding**: Ants calculate the shortest path to undiscovered food sources using brute force 🧠.
-- **Real-time Observations**: Track the ant's movements in real-time as it navigates to food sources 📊.
+- **Random Food Generation**: Generate random food source points on the screen .
+- **Interactive Mode**: Let the user select food sources by right-clicking on the screen .
+- **Brute Force Pathfinding**: Ants calculate the shortest path to undiscovered food sources using brute force .
+- **Real-time Observations**: Track the ant's movements in real-time as it navigates to food sources .
 
-## Installation 🛠️
+## Installation 
 
-1. Clone this repository to your local machine 🖥️ using `git clone`:
+1. Clone this repository to your local machine using `git clone`:
 
    ```bash
    git clone https://github.com/xerleog/pygame-projects.git
@@ -38,7 +38,7 @@ Both scripts are based on the idea of calculating the shortest possible path to 
 
    Otherwise, ensure you have `pygame` and other necessary libraries installed manually.
 
-## Usage 📖
+## Usage
 
 ### Running `main.py`
 
@@ -64,7 +64,7 @@ Both scripts are based on the idea of calculating the shortest possible path to 
 
    After running, right-click on the screen to select food points (10 points). The ant will calculate the shortest paths to reach each food source.
 
-## Algorithm 🧠
+## Algorithm 
 
 Both `main.py` and `main2.py` use brute force to calculate the shortest path to undiscovered food nodes. The brute-force method involves:
 
@@ -76,7 +76,7 @@ The method assumes a small grid size, making brute force a feasible approach.
 
 Both scripts track the ant's progress and display the shortest path as it moves between food sources.
 
-## Reference 📖
+## Reference 
 
 For more information on pathfinding algorithms or improving your own simulation, you can refer to common algorithms like **Dijkstra's Algorithm** or **A* Search** for more optimized pathfinding strategies.
 
